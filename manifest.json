@@ -1,0 +1,21 @@
+{
+  "name": "Xadrez Clássico | 4U.IA.BR",
+  "short_name": "Xadrez 4U",
+  "description": "Xadrez Clássico Humano vs IA com motor Minimax, Efeitos Sonoros Web Audio, Notação PGN e FEN.",
+  "start_url": "index.php",
+  "display": "standalone",
+  "background_color": "#1a1612",
+  "theme_color": "#1a1612",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
