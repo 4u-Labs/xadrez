@@ -9,7 +9,7 @@ $v = time();
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xadrez Clássico | 4U.IA.BR</title>
     
     <!-- PWA Meta Tags -->
@@ -17,7 +17,8 @@ $v = time();
     <meta name="theme-color" content="#1a1612">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=20261120-2">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=20261120-2">
     <link rel="apple-touch-icon" href="icon-192.png">
 
     <!-- Tailwind CSS -->
@@ -262,6 +263,11 @@ $v = time();
             opacity: 1;
         }
     </style>
+
+    <!-- 4u-Labs SEO & Standard Meta -->
+    <meta name="description" content="Xadrez Clássico | 4U.IA.BR — Aplicativo Web gratuito da 4u-Labs em 4u.ia.br.">
+    <link rel="canonical" href="https://4u.ia.br/app/xadrez/">
+    <meta property="og:type" content="website"><meta property="og:site_name" content="4u-Labs"><meta property="og:url" content="https://4u.ia.br/app/xadrez/"><meta property="og:title" content="Xadrez Clássico | 4U.IA.BR"><meta property="og:description" content="Xadrez Clássico | 4U.IA.BR — Aplicativo Web gratuito da 4u-Labs em 4u.ia.br."><meta property="og:image" content="https://4u.ia.br/app/xadrez/icon-512.png">
 </head>
 <body class="flex flex-col min-h-screen p-3 md:p-6 justify-between">
 
@@ -1741,5 +1747,7 @@ $v = time();
             initGame();
         });
     </script>
+
+    <script defer src="/assets/4ulabs-ecosystem.js?v=20261122" data-fouru-i18n="1"></script>
 </body>
 </html>
